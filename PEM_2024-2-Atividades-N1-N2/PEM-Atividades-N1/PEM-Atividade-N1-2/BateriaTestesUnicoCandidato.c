@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+//Disciplina: Programação Estruturada e Modular
+//Prof. Carlos Veríssimo
+
+//Objetivo do Programa: calcular a bateria de testes realizada por um candidato
+//Data - 23/08/2024
+//Autor: Luis Fellipe Franco Arakaki
+
 int main()
 {
         //Declaração das variáveis a serem usadas no programa
