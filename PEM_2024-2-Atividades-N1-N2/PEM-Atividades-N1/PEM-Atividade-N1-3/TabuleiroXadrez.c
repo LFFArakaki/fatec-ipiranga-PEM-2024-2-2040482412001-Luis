@@ -5,6 +5,13 @@
 #define P "\e[40m"
 #define R "\e[0m"
 
+//Disciplina: Programação Estruturada e Modular
+//Prof. Carlos Veríssimo
+
+//Objetivo do Programa: exibir um tabuleiro de xadrez
+//Data - 29/08/2024
+//Autor: Luis Fellipe Franco Arakaki
+
 int main() {
 
     char reiP[20], reiB[20], damaP[20], damaB[20], cavaloP1[20], cavaloP2[20], cavaloB1[20], cavaloB2[20];
