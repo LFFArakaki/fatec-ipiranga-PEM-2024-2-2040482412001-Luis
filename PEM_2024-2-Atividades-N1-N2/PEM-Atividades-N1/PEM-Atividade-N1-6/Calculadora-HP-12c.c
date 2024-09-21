@@ -32,6 +32,7 @@ int main()
 {
     printf("Insira uma expressão RPN\n");
     printf("Numeros devem estar separados por ';'\n");
+    printf("Ex: '5;1;2+4*+3-'\n");
     scanf("%s",entrada);
 	converter(entrada);
 	if(contador>=TAMANHOPILHA)
@@ -85,6 +86,12 @@ void converter(char entrada[TAMANHOENTRADA]){
             }
             if(entrada[i] == '/')
             {
+		if(calculador[contador] == 0)
+		{
+		   printf("Divisão por 0 não pode ocorrer!\n");
+		   contador = 5;
+		   return;
+		}
                 exibirPilha();
                 operacaoSeguida(i);
                 divisao();
