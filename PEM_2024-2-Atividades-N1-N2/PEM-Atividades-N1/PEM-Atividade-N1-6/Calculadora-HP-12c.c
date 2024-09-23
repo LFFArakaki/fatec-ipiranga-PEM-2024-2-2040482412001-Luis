@@ -86,7 +86,7 @@ void converter(char entrada[TAMANHOENTRADA]){
             }
             if(entrada[i] == '/')
             {
-		if(calculador[contador] == 0)
+		if(calculadora[contador] == 0)
 		{
 		   printf("Divisão por 0 não pode ocorrer!\n");
 		   contador = 5;
