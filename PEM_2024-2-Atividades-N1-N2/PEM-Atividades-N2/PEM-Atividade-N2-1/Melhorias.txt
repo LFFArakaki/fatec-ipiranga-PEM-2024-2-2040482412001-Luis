@@ -1,0 +1,6 @@
+Algumas melhorias que podem ser feitas em relação ao programa em anexo, são: 
+- Pedir a quantidade de números a serem ordenados para o usuário; 
+- Deixar que a entrada seja feita por ele ao invés de serem propriedades internas do código;
+- Utilizar o comando "while" e não um "for" dentro de um "for"
+
+Autor: Luis Fellipe Franco Arakaki
