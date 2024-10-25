@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 
+//Disciplina: Programação Estruturada e Modular
+//Prof. Carlos Veríssimo
+
+//Objetivo do Programa: Programa para simular inserçao e compra de produtos em uma loja
+//Data - 25/10/2024
+//Autor: Luis Fellipe Franco Arakaki
+
 #define CARACTERES 200
 
 int ch;
